@@ -24,7 +24,7 @@
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg bgnav">
+    <nav class="navbar navbar-expand-lg bgnav mb-3">
         <a class="navbar-brand" href="Homepage.html">U.A High School</a>
         <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="Contactpage.html">Contact</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="calenderpage.html">Calender</a>
                 </li>
             </ul>
@@ -81,7 +81,66 @@
                     center: 'title',
                     right: 'month,basicWeek,basicDay'
                 },
-            })
+                defaultDate: '2018-10-12',
+                navLinks: true, // can click day/week names to navigate views
+                editable: true,
+                eventLimit: true, // allow "more" link when too many events
+                events: [
+                    {
+                        title: 'Hero Day',
+                        start: '2018-10-26'
+                    },
+                    {
+                        title: 'Power Week',
+                        start: '2018-10-22',
+                        end: '2018-10-26'
+                    },
+                    {
+                        id: 999,
+                        title: 'Special Recess',
+                        start: '2018-10-09T16:00:00'
+                    },
+                    {
+                        id: 999,
+                        title: 'Special Recess',
+                        start: '2018-10-16T16:00:00'
+                    },
+                    {
+                        title: 'Conference Days',
+                        start: '2018-10-11',
+                        end: '2018-10-13'
+                    },
+                    {
+                        title: 'Meeting',
+                        start: '2018-10-12T10:30:00',
+                        end: '2018-10-12T12:30:00'
+                    },
+                    {
+                        title: 'Special Lunch',
+                        start: '2018-10-12T12:00:00'
+                    },
+                    {
+                        title: 'Meeting',
+                        start: '2018-10-12T14:30:00'
+                    },
+                    {
+                        title: 'Hero Hour',
+                        start: '2018-10-12T17:30:00'
+                    },
+                    {
+                        title: 'Special Dinner',
+                        start: '2018-10-12T20:00:00'
+                    },
+                    {
+                        title: 'Hero Party',
+                        start: '2018-10-13T07:00:00'
+                    },
+                    {
+                        title: 'Heroween',
+                        start: '2018-10-31'
+                    }
+                ]
+            });
 
         });
     </script>
