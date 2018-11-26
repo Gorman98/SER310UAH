@@ -7,8 +7,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Home Page</title>
     <meta name="description" content="HomePage">
@@ -26,7 +25,9 @@
 <body>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bgnav">
-        <a class="navbar-brand" href="Homepage.html">U.A High School</a>
+        <a class="navbar-brand" href="Homepage.html">
+            <img src="Pictures/My_Hero_Academia_logo.png" width="150" height="50" alt="">
+        </a>
         <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -73,7 +74,7 @@
                             delivered directly in your inbox.</p>
                         <div class="input-group">
                             <input type="email" class="form-control" placeholder="Enter your email" required>
-                            <span class="input-group-btn"style="margin-top: 8px">
+                            <span class="input-group-btn" style="margin-top: 8px">
                                 <input type="submit" class="btn btn-primary" value="Subscribe">
                             </span>
                         </div>
@@ -128,11 +129,32 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <p>
+            To Learn More About School History Click
+            <a data-toggle="collapse" href="#collapseExample" role="link" aria-expanded="false" aria-controls="collapseExample">
+                Here
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                My Hero Academia is a superhero manga series
+                written and illustrated by Kōhei Horikoshi. It has been serialized in Weekly Shōnen Jump since July
+                2014, and 20 volumes have been collected in tankōbon format. The story follows Izuku Midoriya, a
+                boy born without superpowers (called quirks) in a world where they have become the norm, but who still
+                dreams of becoming a hero himself. He is scouted by the world's greatest hero, who shares his quirk
+                with Izuku after recognizing his potential, and later enrolls him in a high school for heroes in
+                training.
+            </div>
+        </div>
+    </div>
     <footer class="page-footer font-small">
 
-        <div class="footer-copyright text-center py-2">© 2018 Copyright: UA High School
+        <div class="footer-copyright text-center py-2 bbbg">© 2018 Copyright: UA High School - <a href="https://www.facebook.com/MyHeroAcademia/"
+                class="fa fa-facebook"></a>
         </div>
-        <div class="footer-copyright text-center">Created by Matt Chieco and Evan Rigsby
+        <div class="footer-copyright text-center"><a style="color:antiquewhite" href="1-800-123-1234">1-800-123-1234</a>
+            - 123 UA High Lane, Mustafo Japan
         </div>
     </footer>
 </body>

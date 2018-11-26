@@ -18,7 +18,6 @@ body {
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    width: 100%;
     display: block;
 }
 
@@ -277,4 +276,19 @@ input[type=submit]:hover {
     margin: 100px auto;
     text-align: center;
 }
-
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
